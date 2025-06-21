@@ -1,1 +1,32 @@
 
+ai-research-website/
+├── _config.yml
+├── index.md
+├── _layouts/
+│   ├── default.html
+│   ├── post.html
+├── _includes/
+│   ├── header.html
+│   ├── footer.html
+├── _posts/
+│   ├── 2025-06-21-introducing-ai-research.md
+├── assets/
+│   ├── css/
+│   │   ├── styles.css
+│   ├── js/
+│   │   ├── main.js
+│   ├── images/
+│   │   ├── logo.png
+│   │   ├── team/
+│   │   │   ├── member1.jpg
+│   │   │   ├── member2.jpg
+├── _data/
+│   ├── team.yml
+├── pages/
+│   ├── about.md
+│   ├── research.md
+│   ├── team.md
+│   ├── blog.md
+│   ├── contact.md
+├── README.md
+├── .gitignore
