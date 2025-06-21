@@ -1,32 +1,32 @@
 
 ai-research-website/
-├── _config.yml
-├── index.md
-├── _layouts/
-│   ├── default.html
-│   ├── post.html
-├── _includes/
-│   ├── header.html
-│   ├── footer.html
-├── _posts/
-│   ├── 2025-06-21-introducing-ai-research.md
-├── assets/
-│   ├── css/
+├── astro.config.mjs
+├── package.json
+├── src/
+│   ├── pages/
+│   │   ├── index.astro
+│   │   ├── about.astro
+│   │   ├── research.astro
+│   │   ├── team.astro
+│   │   ├── blog.astro
+│   │   ├── contact.astro
+│   ├── layouts/
+│   │   ├── Layout.astro
+│   ├── components/
+│   │   ├── Header.astro
+│   │   ├── Footer.astro
+│   ├── content/
+│   │   ├── blog/
+│   │   │   ├── 2025-06-21-introducing-ai-research.md
+│   ├── data/
+│   │   ├── team.json
+│   ├── styles/
 │   │   ├── styles.css
-│   ├── js/
-│   │   ├── main.js
-│   ├── images/
-│   │   ├── logo.png
-│   │   ├── team/
-│   │   │   ├── member1.jpg
-│   │   │   ├── member2.jpg
-├── _data/
-│   ├── team.yml
-├── pages/
-│   ├── about.md
-│   ├── research.md
-│   ├── team.md
-│   ├── blog.md
-│   ├── contact.md
+│   ├── public/
+│   │   ├── images/
+│   │   │   ├── logo.png
+│   │   │   ├── team/
+│   │   │   │   ├── member1.jpg
+│   │   │   │   ├── member2.jpg
 ├── README.md
 ├── .gitignore
